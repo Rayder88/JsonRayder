@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: gray;
+}
+
+.posts{
+    width: 1024px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+/*
+.posts{
+    transition: all ease 0.5s;
+}
+*/
+.post img {
+    width: 100%;
+    object-fit: cover;
+    transition: all ease 0.5s;
+}
+
+.post:hover{
+    transform: scale(1.05);
+}
